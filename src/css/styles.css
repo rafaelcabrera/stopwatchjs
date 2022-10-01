@@ -8,29 +8,24 @@ body{
     height: 100%;
 }
 
-.timerDisplay{
-    position: relative;
-    width: 92%;
-    background: #ffffff;
-    left: 4%;
-    padding: 40px 0;
-    font-family: 'Roboto mono',monospace;
-    color: #0381bb;
-    font-size: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border-radius: 5px;
-    box-shadow: 0 0 20px rgba(0,139,253,0.25);
-}
-
-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+* {
+    font-family: monospace;
   }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px auto 0;
+    width: fit-content;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 5px;
+  }
+  
+  .stopwatch {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 60px;
+  }
+

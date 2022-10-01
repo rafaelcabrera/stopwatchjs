@@ -1,24 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../public/favico.ico" />
-    <link rel="stylesheet" type="text/css" href="./css/styles.css"/>
-    <title>Stopwatch</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../public/favico.ico" />
+  <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+
 </head>
+
 <body>
-    <div id="clock">
-        Stopwatch
+  <main>
+    <div class="container">
+      <p class="stopwatch">00:00:00:00</p>
+      <div class="container-buttons">
+        <button id="start-button" class="buttons">Start</button>
+        <button id="clear-button" class="buttons">Stop</button>
+        <button id="plus" class="buttons">+1s</button>
+        <button id="minus" class="">-1s</button>
+        <button id="clear-button" class="buttons">Clear</button>
+        <button id="lap-split" class="buttons">Split</button>
+        <button id="clear-lap" class="buttons">Clear laps</button>
+      </div>
+      <div>
+        <input type="radio" id="timer" name="switch" value="timer" checked>
+        <label for="huey">Timer</label>
+      </div>
+
+      <div>
+        <input type="radio" id="chrono" name="switch" value="chrono">
+        <label for="dewey">Chrono</label>
+      </div>
     </div>
-    <div class="timerDisplay">
-        00 : 00 : 00 : 000
-     </div>
-    <button type="button" id=""></button>
-    <button type="button" id=""></button>
-    <button type="button" id=""></button>
-    <button type="button" id=""></button>
+
+    </div>
+  </main>
+  <script type="text/javascript" src="./index.js"></script>
 </body>
-<footer>Footer</footer>
+
 </html>
